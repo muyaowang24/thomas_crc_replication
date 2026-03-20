@@ -1,4 +1,4 @@
-# Thomas et al. (2019) CRC microbiome replication
+# Replication of Thomas et al.on cross-cohort metagenomic signatures of colorectal cancer
 
 This repository contains a public-data replication of the analytical framework from Thomas et al., *Nature Medicine* (2019), focusing on cross-cohort metagenomic signatures of colorectal cancer.
 
