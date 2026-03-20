@@ -1,0 +1,929 @@
+"species","n_studies_tested","n_sig","n_enriched_crc","n_depleted_crc","mean_diff"
+"Parvimonas micra",11,7,7,0,1.16696152579605
+"Gemella morbillorum",11,6,6,0,0.92300363930639
+"Peptostreptococcus stomatis",11,6,6,0,0.915707327286441
+"Dialister pneumosintes",11,6,6,0,0.751187833856329
+"Fusobacterium nucleatum",11,5,5,0,0.697207997038085
+"[Clostridium] symbiosum",11,3,3,0,0.851322204617973
+"Solobacterium moorei",11,3,3,0,0.745873233878071
+"Hungatella hathewayi",11,3,3,0,0.603806833114106
+"Ruthenibacterium lactatiformans",11,3,3,0,0.468870507110716
+"Prevotella copri",11,3,1,2,0.15647407652616
+"Methanobrevibacter smithii",11,2,2,0,0.756289196250668
+"Roseburia intestinalis",11,2,0,2,-0.683157087228089
+"Eisenbergiella tayi",11,2,2,0,0.615463355620036
+"Porphyromonas asaccharolytica",11,2,2,0,0.59025591784568
+"Butyricimonas virosa",11,2,2,0,0.582923592200207
+"Roseburia faecis",11,2,0,2,-0.484522295412515
+"Flavonifractor plautii",11,2,2,0,0.44111431435332
+"Enterocloster bolteae",11,2,2,0,0.414809603428024
+"Bacteroides eggerthii",11,2,2,0,0.409248505649536
+"Alistipes shahii",11,2,2,0,0.395929580887883
+"Faecalibacterium prausnitzii",11,2,0,2,-0.351315636912505
+"Porphyromonas uenonis",11,2,2,0,0.328118780528482
+"Bacteroides nordii",11,2,2,0,0.319796524268683
+"Enterocloster lavalensis",11,2,2,0,0.255238266908797
+"Streptococcus mitis",11,2,2,0,0.248859997455505
+"Erysipelatoclostridium ramosum",11,2,2,0,0.209581115487845
+"Fretibacterium fastidiosum",11,2,2,0,0.176937037482294
+NA,44,2,2,0,0.170257755605784
+"Lachnospira pectinoschiza",11,2,1,1,-0.149936086884003
+"Bacteroides fragilis",11,1,1,0,0.873216563320243
+"Escherichia coli",11,1,1,0,0.691592299879507
+"Intestinimonas butyriciproducens",11,1,1,0,0.582494813026095
+"[Ruminococcus] gnavus",11,1,1,0,0.473981960306581
+"Akkermansia muciniphila",11,1,1,0,0.450590479623952
+"Prevotella sp. CAG:520",11,1,1,0,0.389565485967721
+"Prevotella intermedia",11,1,1,0,0.388175721976452
+"Streptococcus oralis",11,1,1,0,0.387039468464151
+"Bacteroides thetaiotaomicron",11,1,1,0,0.386520447630839
+"[Eubacterium] rectale",11,1,0,1,-0.382520301885823
+"Ruminococcaceae bacterium D5",11,1,1,0,0.374971985137029
+"Parabacteroides distasonis",11,1,1,0,0.356847929377707
+"Bifidobacterium adolescentis",11,1,0,1,-0.355445821893167
+"Parabacteroides merdae",11,1,1,0,0.345864351416756
+"Odoribacter splanchnicus",11,1,1,0,0.337845721835203
+"Holdemania filiformis",11,1,1,0,0.31331361686632
+"Mogibacterium diversum",11,1,1,0,0.312530664924878
+"Oscillibacter sp. CAG:241",11,1,1,0,0.30477745049572
+"Enterocloster citroniae",11,1,1,0,0.303086649904442
+"Alistipes finegoldii",11,1,1,0,0.301868579170156
+"Morganella morganii",11,1,1,0,0.273301342569816
+"Ligilactobacillus ruminis",11,1,0,1,-0.264321337731383
+"Veillonella parvula",11,1,1,0,0.261273706673767
+"Firmicutes bacterium CAG:238",11,1,1,0,0.229685741405638
+"Phocaeicola plebeius",11,1,1,0,0.228240564387888
+"Enterocloster clostridioformis",11,1,1,0,0.225423502480261
+"Ruminococcaceae bacterium D16",11,1,1,0,0.221135801468609
+"Lawsonibacter asaccharolyticus",11,1,1,0,0.213968374330623
+"Lancefieldella parvula",11,1,1,0,0.210943674116189
+"Allisonella histaminiformans",11,1,1,0,0.200004001028578
+"Harryflintia acetispora",11,1,1,0,0.198833580969888
+"[Clostridium] innocuum",11,1,1,0,0.197268133340236
+"Anaerococcus vaginalis",11,1,1,0,0.19576490625202
+"Bacteroides sp. CAG:530",11,1,1,0,0.19469327276151
+"Parabacteroides goldsteinii",11,1,1,0,0.187613657656295
+"Anaerostipes hadrus",11,1,0,1,-0.186390069932368
+"Collinsella intestinalis",11,1,1,0,0.18632667494693
+"Fusobacterium sp. oral taxon 370",11,1,1,0,0.181707130557093
+"Faecalicoccus pleomorphus",11,1,1,0,0.180514465844647
+"Alloprevotella tannerae",11,1,1,0,0.175449325633808
+"Lactobacillus crispatus",11,1,1,0,0.171244626323652
+"Dielma fastidiosa",11,1,1,0,0.165547866824045
+"Eubacterium ventriosum",11,1,0,1,-0.160436036877406
+"Fusicatenibacter saccharivorans",11,1,0,1,-0.144177132472498
+"Bacteroides cellulosilyticus",11,1,1,0,0.138676982359304
+"Collinsella aerofaciens",11,1,1,0,0.138001453605957
+"Enterocloster aldenensis",11,1,1,0,0.13021873252775
+"Lactobacillus rogosae",11,1,1,0,-0.106832688829789
+"Megasphaera elsdenii",11,1,0,1,-0.106735114225701
+"Selenomonas sputigena",11,1,1,0,0.106230677246199
+"[Eubacterium] infirmum",11,1,1,0,0.105500892473405
+"Actinomyces sp. HMSC035G02",11,1,1,0,0.101106668195582
+"Enterococcus gallinarum",11,1,1,0,0.0844936525684191
+"Bacteroides xylanisolvens",11,1,1,0,0.0730926454119162
+"Enorma massiliensis",11,1,1,0,0.0693725960062436
+"Adlercreutzia caecimuris",11,1,1,0,-0.0682399070669321
+"Fructilactobacillus sanfranciscensis",11,1,1,0,0.0630884152813864
+"Ruminococcus sp. CAG:403",11,1,1,0,0.0613572849378218
+"Bacteroides clarus",11,1,1,0,0.0567163228069338
+"Lacrimispora saccharolytica",11,1,1,0,0.0522930922165519
+"Rothia dentocariosa",11,1,1,0,0.0488799809262295
+"Bacteroides intestinalis",11,1,1,0,0.0471983310507944
+"[Ruminococcus] torques",11,1,1,0,0.0368532613152517
+"Enterococcus faecium",11,1,1,0,0.0330694365502338
+"Veillonella dispar",11,1,1,0,-0.0319103758699103
+"Oribacterium parvum",11,1,1,0,0.0292575304803934
+"Streptococcus sanguinis",11,1,1,0,0.0130656723054336
+"Streptococcus parasanguinis",11,1,1,0,-0.00695327146135889
+"Lachnospira eligens",11,0,0,0,-0.52164707228262
+"Eubacterium sp. CAG:180",11,0,0,0,0.485087583877301
+"Streptococcus salivarius",11,0,0,0,-0.473379363863343
+"Prevotella stercorea",11,0,0,0,0.434292582606777
+"Anaerotruncus colihominis",11,0,0,0,0.42231351725922
+"Eubacterium sp. CAG:251",11,0,0,0,-0.388747259037307
+"Bilophila wadsworthia",11,0,0,0,0.383102665932522
+"Clostridium sp. CAG:58",11,0,0,0,0.381503288794681
+"Prevotella sp. CAG:279",11,0,0,0,0.378606473946059
+"Bacteroides salyersiae",11,0,0,0,0.348180632753457
+"Peptostreptococcus anaerobius",11,0,0,0,0.339703611671449
+"[Clostridium] leptum",11,0,0,0,0.331389028432292
+"Bifidobacterium pseudocatenulatum",11,0,0,0,-0.328933676338617
+"Dialister sp. CAG:357",11,0,0,0,-0.32863621863962
+"Firmicutes bacterium CAG:145",11,0,0,0,0.32842014928252
+"Ruminococcus bicirculans",11,0,0,0,-0.314442115366037
+"Alistipes indistinctus",11,0,0,0,0.308045056091167
+"Bacteroides caccae",11,0,0,0,0.290310943947666
+"Pseudoflavonifractor sp. An184",11,0,0,0,0.274524111939868
+"Bacteroides stercoris",11,0,0,0,0.273245765403562
+"Eubacterium sp. CAG:38",11,0,0,0,-0.273110867166389
+"Roseburia sp. CAG:303",11,0,0,0,-0.265950370687872
+"Gemella haemolysans",11,0,0,0,0.260850967752372
+"Desulfovibrio piger",11,0,0,0,0.256869158690643
+"Paraprevotella xylaniphila",11,0,0,0,0.25244435580704
+"Streptococcus thermophilus",11,0,0,0,-0.247072146412116
+"Haemophilus parainfluenzae",11,0,0,0,-0.24277497853862
+"Proteobacteria bacterium CAG:139",11,0,0,0,-0.242721861624581
+"Phocaeicola dorei",11,0,0,0,-0.240297093020167
+"[Eubacterium] siraeum",11,0,0,0,0.236688980630868
+"Coprococcus catus",11,0,0,0,0.232463187433576
+"Phascolarctobacterium faecium",11,0,0,0,0.232427346754168
+"Firmicutes bacterium CAG:94",11,0,0,0,0.228401154704067
+"Turicimonas muris",11,0,0,0,-0.223127582611438
+"Christensenella minuta",11,0,0,0,0.222673038049967
+"Anaerotignum lactatifermentans",11,0,0,0,0.218894239911514
+"Gemmiger formicilis",11,0,0,0,-0.216191618428876
+"Christensenella hongkongensis",11,0,0,0,0.215638029826596
+"Phascolarctobacterium succinatutens",11,0,0,0,0.215387364775502
+"[Clostridium] scindens",11,0,0,0,0.214884967123217
+"Agathobaculum butyriciproducens",11,0,0,0,-0.213091217419655
+"Bifidobacterium bifidum",11,0,0,0,-0.210836691900951
+"Acidaminococcus intestini",11,0,0,0,0.208978463062045
+"Streptococcus pasteurianus",11,0,0,0,0.20869989008194
+"Butyricimonas synergistica",11,0,0,0,0.207262407265199
+"Porphyromonas endodontalis",11,0,0,0,0.204944269443853
+"Adlercreutzia equolifaciens",22,0,0,0,-0.204407135480636
+"Eisenbergiella massiliensis",11,0,0,0,0.203366958623521
+"Prevotella nigrescens",11,0,0,0,0.201780339842439
+"Slackia isoflavoniconvertens",11,0,0,0,0.193758350098917
+"Clostridium sp. CAG:242",11,0,0,0,0.193310234896835
+"Anaerobutyricum hallii",11,0,0,0,-0.191950893893503
+"Holdemanella biformis",11,0,0,0,0.191699158817201
+"Turicibacter sanguinis",11,0,0,0,-0.190802945908359
+"Lachnoclostridium sp. An131",11,0,0,0,0.19051531967504
+"Ligilactobacillus salivarius",11,0,0,0,0.189550452750216
+"Phocaeicola vulgatus",11,0,0,0,0.181324261911496
+"Clostridium sp. CAG:167",11,0,0,0,-0.180731792237354
+"Catenibacterium mitsuokai",11,0,0,0,0.180444232982337
+"Lactobacillus paragasseri",11,0,0,0,0.177798114739565
+"Eikenella corrodens",11,0,0,0,0.17598038608583
+"Parasutterella excrementihominis",11,0,0,0,-0.175770553118288
+"Firmicutes bacterium CAG:110",11,0,0,0,-0.174632846686448
+"Fusobacterium mortiferum",11,0,0,0,0.171956164222361
+"Coprococcus eutactus",11,0,0,0,-0.170756558544896
+"Desulfovibrionaceae bacterium",11,0,0,0,0.169682651033095
+"Slackia exigua",11,0,0,0,0.168776604309127
+"Actinomyces graevenitzii",11,0,0,0,0.168681361442351
+"Schaalia turicensis",11,0,0,0,0.159882289342101
+"Eubacterium sp. CAG:274",11,0,0,0,-0.157486864392453
+"Lancefieldella rimae",11,0,0,0,0.156272103480267
+"Actinomyces sp. oral taxon 181",11,0,0,0,0.154293477814299
+"Alistipes onderdonkii",11,0,0,0,0.152995097472823
+"Fusobacterium necrophorum",11,0,0,0,0.149847970731462
+"Ruminococcus sp. CAG:488",11,0,0,0,0.14978801332355
+"Klebsiella oxytoca",11,0,0,0,0.148770563175697
+"Fusobacterium periodonticum",11,0,0,0,0.144869528211242
+"Clostridium sp. CAG:413",11,0,0,0,0.143737397515953
+"[Ruminococcus] lactaris",11,0,0,0,-0.143668777506175
+"Enterococcus faecalis",11,0,0,0,0.141181273467058
+"Roseburia hominis",11,0,0,0,-0.137316781817671
+"Roseburia sp. CAG:471",11,0,0,0,-0.137041679899274
+"Clostridium sp. CAG:253",11,0,0,0,-0.136463804425717
+"Sanguibacteroides justesenii",11,0,0,0,0.136062996850064
+"Dorea formicigenerans",11,0,0,0,0.134458697873897
+"Klebsiella michiganensis",11,0,0,0,0.13407191097351
+"Aeriscardovia aeriphila",11,0,0,0,-0.132946312915864
+"Prevotella sp. CAG:1092",11,0,0,0,0.13274899320616
+"Coprococcus comes",11,0,0,0,-0.131140672968027
+"Romboutsia ilealis",11,0,0,0,-0.130854040779988
+"Alloprevotella sp. oral taxon 473",11,0,0,0,0.129801977049468
+"Prevotella sp. 885",11,0,0,0,0.127831545870864
+"Cloacibacillus porcorum",11,0,0,0,0.126337006711401
+"Prevotella bivia",11,0,0,0,0.125721314183289
+"Mogibacterium timidum",11,0,0,0,0.124956047524299
+"Gemella sanguinis",11,0,0,0,0.124937143442907
+"Schaalia cardiffensis",11,0,0,0,0.124872043553947
+"Faecalitalea cylindroides",11,0,0,0,0.124682611954434
+"Alistipes inops",11,0,0,0,0.123537188117119
+"Prevotella sp. CAG:873",11,0,0,0,0.122895212487007
+"Campylobacter ureolyticus",11,0,0,0,0.122728158411832
+"Lactobacillus delbrueckii",11,0,0,0,-0.12254856495257
+"Blautia wexlerae",11,0,0,0,-0.118461454894751
+"[Clostridium] methylpentosum",11,0,0,0,0.117867349309813
+"Lachnoclostridium sp. An138",11,0,0,0,0.117497111876714
+"Phascolarctobacterium sp. CAG:266",11,0,0,0,-0.116255198362543
+"Actinomyces sp. S6-Spd3",11,0,0,0,0.115931089650784
+"Fusobacterium varium",11,0,0,0,0.115769868869725
+"Phocaeicola coprophilus",11,0,0,0,0.115577910167383
+"Streptococcus infantis",11,0,0,0,0.115404743058093
+"Bifidobacterium catenulatum",22,0,0,0,-0.114585996931249
+"Rothia mucilaginosa",11,0,0,0,-0.114220868573956
+"Enterocloster asparagiformis",11,0,0,0,0.113500679870778
+"Bifidobacterium angulatum",11,0,0,0,-0.110840452410415
+"Victivallis vadensis",11,0,0,0,0.110440244078781
+"Pyramidobacter piscolens",11,0,0,0,0.109581202234637
+"Eubacterium limosum",11,0,0,0,0.107591303889811
+"Streptococcus milleri",11,0,0,0,0.10672843963888
+"[Clostridium] hylemonae",11,0,0,0,0.105990597857192
+"Firmicutes bacterium CAG:83",11,0,0,0,-0.105793405356962
+"Fusobacterium naviforme",11,0,0,0,0.103852779074129
+"Eubacterium ramulus",11,0,0,0,-0.103252781730481
+"Dorea longicatena",11,0,0,0,-0.100940597301889
+"Blautia producta",11,0,0,0,-0.100878044641134
+"Clostridium bolteae CAG:59",11,0,0,0,0.100857826533911
+"Blautia obeum",11,0,0,0,-0.100615904302087
+"Aggregatibacter segnis",11,0,0,0,0.100452918534231
+"Streptococcus gordonii",11,0,0,0,0.100433968232582
+"Parvimonas sp. KA00067",11,0,0,0,0.0998007287662148
+"Megamonas funiformis",11,0,0,0,0.0982953814875593
+"Bacteroides galacturonicus",11,0,0,0,0.0980106527927691
+"Limosilactobacillus mucosae",11,0,0,0,0.0979152351473906
+"Clostridium sp. CAG:510",11,0,0,0,0.0974981557371247
+"Bifidobacterium longum",11,0,0,0,-0.0974123676628097
+"Fusobacterium gonidiaformans",11,0,0,0,0.0966452673093065
+"Paraprevotella clara",11,0,0,0,0.0959714431602665
+"Megasphaera micronuciformis",11,0,0,0,0.0959648882341765
+"Eubacterium callanderi",11,0,0,0,0.0937924058726292
+"Actinomyces sp. HPA0247",11,0,0,0,0.0926589336325703
+"Eubacteriaceae bacterium CHKCI005",11,0,0,0,0.0917373199620482
+"Alistipes putredinis",11,0,0,0,0.0905580522731309
+"Streptococcus australis",11,0,0,0,-0.0904506653780027
+"Granulicatella adiacens",11,0,0,0,0.090239814599442
+"Gemella asaccharolytica",11,0,0,0,0.0902328422523243
+"Blautia hydrogenotrophica",11,0,0,0,0.0896199947088713
+"Clostridium sp. CAG:632",11,0,0,0,0.089028878491293
+"Filifactor alocis",11,0,0,0,0.0886622607072405
+"Citrobacter freundii",11,0,0,0,0.0885590860767338
+"Roseburia sp. CAG:309",11,0,0,0,-0.0877166224774514
+"Proteus mirabilis",11,0,0,0,0.0870949156188006
+"Bifidobacterium ruminantium",11,0,0,0,-0.0853438181588399
+"Firmicutes bacterium CAG:424",11,0,0,0,0.0852580335557705
+"Prevotella sp. AM42-24",11,0,0,0,0.085167786267486
+"Schaalia odontolytica",11,0,0,0,0.0847644615653849
+"Megasphaera sp. DISK 18",11,0,0,0,0.0846818508326956
+"Ruminococcus bromii",11,0,0,0,0.084169661804294
+"Klebsiella aerogenes",11,0,0,0,0.0837317882012902
+"Butyrivibrio sp. CAG:318",11,0,0,0,0.0832766539093685
+"Tyzzerella nexilis",11,0,0,0,0.0829440560251758
+"Clostridium disporicum",11,0,0,0,0.0823672023078057
+"Peptoniphilus harei",11,0,0,0,0.0808699192128168
+"Citrobacter braakii",11,0,0,0,0.0806782639043022
+"Prevotella buccae",11,0,0,0,0.0799080021583841
+"Streptococcus gallolyticus",11,0,0,0,0.0784045879569921
+"Prevotella oris",11,0,0,0,0.0774536616173001
+"Anaerotruncus sp. CAG:528",11,0,0,0,-0.0770227144737515
+"Dorea sp. CAG:317",11,0,0,0,-0.0766480570265764
+"Lactococcus lactis",11,0,0,0,0.0753191822920911
+"Streptococcus vestibularis",11,0,0,0,0.074911010604383
+"Enterococcus durans",11,0,0,0,0.0747008640741487
+"Prevotella sp. CAG:1185",11,0,0,0,0.074277796712323
+"Streptococcus cristatus",11,0,0,0,0.0740033263710937
+"Prevotella denticola",11,0,0,0,0.0737253785401453
+"Limosilactobacillus vaginalis",11,0,0,0,0.0726258423076169
+"[Eubacterium] nodatum",11,0,0,0,0.0723624579239786
+"Citrobacter youngae",11,0,0,0,0.0713450268262914
+"Anaeromassilibacillus sp. An250",11,0,0,0,0.0706748275492089
+"Streptococcus agalactiae",11,0,0,0,0.0705037675722941
+"Blastocystis sp. subtype 1",11,0,0,0,0.06817127177817
+"[Clostridium] spiroforme",11,0,0,0,-0.0681055144369997
+"Actinomyces sp. oral taxon 448",11,0,0,0,-0.0680472762662928
+"Megamonas hypermegale",11,0,0,0,0.0672021000338699
+"Clostridiales bacterium 1_7_47FAA",11,0,0,0,0.0670090555683208
+"Dialister succinatiphilus",11,0,0,0,-0.0657996487828192
+"Limosilactobacillus reuteri",11,0,0,0,0.0657800146888357
+"Firmicutes bacterium CAG:791",11,0,0,0,0.0647968002860977
+"Citrobacter pasteurii",11,0,0,0,0.0640566449281001
+"[Eubacterium] brachy",11,0,0,0,0.0628752207508045
+"Clostridium perfringens",11,0,0,0,0.0627980011072501
+"Olsenella uli",11,0,0,0,0.0627069406471123
+"Clostridium celatum",11,0,0,0,0.0626404683172455
+"Sellimonas intestinalis",11,0,0,0,0.0624115660758192
+"[Bacteroides] pectinophilus",11,0,0,0,-0.0623139957172898
+"Barnesiella intestinihominis",11,0,0,0,0.0619815349466948
+"Campylobacter gracilis",11,0,0,0,0.0619152354854145
+"Bifidobacterium animalis",11,0,0,0,-0.0618317832874348
+"Odoribacter laneus",11,0,0,0,0.0616737224017952
+"Haemophilus pittmaniae",11,0,0,0,-0.0615977588459016
+"Acidaminococcus fermentans",11,0,0,0,0.0604105995156475
+"Flavonifractor sp. An10",11,0,0,0,0.0603974436514253
+"Enterococcus avium",11,0,0,0,0.0596947220956226
+"Mogibacterium pumilum",11,0,0,0,0.059665711488813
+"Haemophilus sp. HMSC71H05",11,0,0,0,-0.0595049522751253
+"Gordonibacter pamelaeae",11,0,0,0,-0.059042690912388
+"Prevotella timonensis",11,0,0,0,0.0589879265771017
+"Actinobaculum sp. oral taxon 183",11,0,0,0,-0.0585617373590185
+"Acidaminococcus sp. CAG:542",11,0,0,0,-0.0580692580204937
+"Abiotrophia defectiva",11,0,0,0,0.0578641002299772
+"Firmicutes bacterium CAG:95",11,0,0,0,0.0575419049235815
+"Veillonella tobetsuensis",11,0,0,0,0.0565700634701776
+"Prevotella sp. CAG:5226",11,0,0,0,0.0564305101968272
+"Veillonella atypica",11,0,0,0,0.05575679485062
+"Prevotella sp. CAG:1320",11,0,0,0,0.0548656524326145
+"[Eubacterium] sulci",11,0,0,0,0.0546770413155456
+"Methanosphaera stadtmanae",11,0,0,0,-0.054659737708079
+"Prevotella sp. CAG:617",11,0,0,0,0.0543667592744528
+"Veillonella sp. CAG:933",11,0,0,0,0.0541813986973836
+"Succinatimonas hippei",11,0,0,0,0.0535669012695623
+"Klebsiella variicola",11,0,0,0,-0.0529616564618887
+"Anaerofustis stercorihominis",11,0,0,0,0.052953106120461
+"Enterococcus casseliflavus",11,0,0,0,0.0520227982863109
+"Firmicutes bacterium CAG:555",11,0,0,0,0.0519616186920706
+"Coprobacillus cateniformis",11,0,0,0,0.051795795947642
+"Peptococcus niger",11,0,0,0,0.0514484075345399
+"Clostridium sp. CAG:299",11,0,0,0,-0.0513527563942892
+"Haemophilus haemolyticus",11,0,0,0,0.0509882492840014
+"Roseburia inulinivorans",11,0,0,0,-0.0508784314842437
+"Alloscardovia omnicolens",11,0,0,0,0.0500147420416742
+"Pyramidobacter sp. C12-8",11,0,0,0,0.0491896325620985
+"Parvimonas sp. oral taxon 393",11,0,0,0,0.0489662155348573
+"Lactococcus garvieae",11,0,0,0,0.0487801273672769
+"Eubacterium coprostanoligenes",11,0,0,0,0.0483385903700579
+"Blautia hansenii",11,0,0,0,-0.0483366021576307
+"Bacteroides sp. CAG:598",11,0,0,0,-0.0482881889713526
+"Prevotella sp. CAG:1031",11,0,0,0,0.0473713411399025
+"Veillonella infantium",11,0,0,0,-0.0473232994026878
+"Mitsuokella jalaludinii",11,0,0,0,-0.0472448444210098
+"Scardovia wiggsiae",11,0,0,0,0.047242607577073
+"Lachnoanaerobaculum saburreum",11,0,0,0,0.0467318595827461
+"Lachnoclostridium sp. An118",11,0,0,0,0.0464743088390782
+"Firmicutes bacterium CAG:534",11,0,0,0,0.046376560438629
+"Prevotella corporis",11,0,0,0,0.0462427333907274
+"Propionibacterium freudenreichii",11,0,0,0,-0.0461243438262437
+"Ruminococcus callidus",11,0,0,0,-0.0449355134257385
+"Prevotella sp. CAG:1058",11,0,0,0,-0.0448863193940146
+"Terrisporobacter othiniensis",11,0,0,0,-0.0445766614666299
+"Lacticaseibacillus rhamnosus",11,0,0,0,0.0444728978330257
+"Fusobacterium ulcerans",11,0,0,0,0.044165427011986
+"Prevotella sp. oral taxon 376",11,0,0,0,0.0434598929483121
+"Streptococcus lutetiensis",11,0,0,0,0.043366433055247
+"Prevotella buccalis",11,0,0,0,0.0433659236159897
+"Alistipes timonensis",11,0,0,0,0.043166547546496
+"Fusobacterium equinum",11,0,0,0,0.0427550185625319
+"Bacteroides finegoldii",11,0,0,0,0.0419068236364226
+"Prevotella melaninogenica",11,0,0,0,0.0418713407979852
+"Streptococcus sinensis",11,0,0,0,0.0415413643245004
+"Corynebacterium casei",11,0,0,0,-0.0412982845192773
+"Dialister micraerophilus",11,0,0,0,0.0412233971924167
+"Oribacterium sinus",11,0,0,0,0.0411606835155175
+"Bifidobacterium pseudolongum",11,0,0,0,0.0410348837927249
+"Peptoniphilus lacrimalis",11,0,0,0,0.0407987383630002
+"Ruminococcus sp. CAG:579",11,0,0,0,0.0407158000125829
+"Bifidobacterium breve",11,0,0,0,0.0405409049286037
+"Corynebacterium argentoratense",11,0,0,0,0.0404646003037881
+"Eubacterium sp. CAG:786",11,0,0,0,-0.0402250475752941
+"Bacteroides sp. 43_108",11,0,0,0,0.0401552646843568
+"Flavonifractor sp. An100",11,0,0,0,-0.0400091411339946
+"Ligilactobacillus animalis",11,0,0,0,-0.0394398001831557
+"Pseudomonas fragi",11,0,0,0,-0.0394226697671336
+"Actinomyces oris",11,0,0,0,0.0384674963660274
+"Abiotrophia sp. HMSC24B09",11,0,0,0,0.0384094479846521
+"Clostridium butyricum",11,0,0,0,0.0383078542098314
+"Ruminococcus sp. CAG:624",11,0,0,0,0.03807880137714
+"Criibacterium bergeronii",11,0,0,0,0.0377580046494416
+"Leuconostoc pseudomesenteroides",11,0,0,0,-0.0371466585333325
+"Porphyromonas gingivalis",11,0,0,0,0.037111335722998
+"Actinomyces sp. oral taxon 170",11,0,0,0,-0.0365502694383947
+"Tractidigestivibacter scatoligenes",11,0,0,0,0.0365120176627445
+"Lactobacillus helveticus",11,0,0,0,0.036432987183868
+"Haemophilus sputorum",11,0,0,0,-0.0362478653773517
+"Parabacteroides sp. CAG:409",11,0,0,0,0.0362094900988526
+"Gemmiger sp. An87",11,0,0,0,-0.0360267552136674
+"Sharpea azabuensis",11,0,0,0,0.0360084257693245
+"Streptococcus sp. A12",11,0,0,0,-0.0358208107570069
+"Clostridioides difficile",11,0,0,0,0.035683264183909
+"Anaerostipes caccae",11,0,0,0,-0.035526192567187
+"Streptococcus mutans",11,0,0,0,-0.0354320720345545
+"Bacteroides faecis CAG:32",11,0,0,0,-0.0347612298738443
+"Limosilactobacillus panis",11,0,0,0,0.0342378967897974
+"Prevotella sp. F0091",11,0,0,0,0.034105870568766
+"Streptococcus sobrinus",11,0,0,0,0.0339887056693329
+"Kluyvera georgiana",11,0,0,0,0.0338696536755652
+"Prevotella sp. CAG:485",11,0,0,0,-0.0334961381443567
+"Flavobacterium sp. FEMGT703F",11,0,0,0,0.0334174384701895
+"Neisseria flavescens",11,0,0,0,0.033237846955155
+"Peptoniphilus coxii",11,0,0,0,0.0329691965347837
+"Coprobacter secundus",11,0,0,0,0.0327207642984234
+"Actinomyces viscosus",11,0,0,0,0.0325958339625739
+"Lawsonella clevelandensis",11,0,0,0,0.0325626916033546
+"Peptostreptococcus sp. MV1",11,0,0,0,0.0324801828376549
+"Enterobacter mori",11,0,0,0,0.032346365998022
+"Saccharomyces cerevisiae",11,0,0,0,-0.0320857495971635
+"Stomatobaculum longum",11,0,0,0,0.0318250570439833
+"Bacteroides sp. CAG:443",11,0,0,0,0.0315841254403649
+"Lactococcus petauri",11,0,0,0,0.0315126702600727
+"Corynebacterium variabile",11,0,0,0,-0.0315051179321081
+"Citrobacter amalonaticus",11,0,0,0,0.0312623250416918
+"Campylobacter showae",11,0,0,0,0.0309952299714917
+"Phocaeicola massiliensis",11,0,0,0,-0.0307886210240167
+"Aeromonas caviae",11,0,0,0,0.0307616169878223
+"Neisseria sicca",11,0,0,0,0.0306709662318965
+"Ruminococcus obeum CAG:39",11,0,0,0,0.0306463989257959
+"Weissella cibaria",11,0,0,0,-0.0305352087735553
+"Actinomyces naeslundii",11,0,0,0,-0.0305284596619049
+"Actinomyces sp. oral taxon 414",11,0,0,0,0.0304884670890965
+"Treponema berlinense",11,0,0,0,0.0304540874998285
+"Parvimonas sp. oral taxon 110",11,0,0,0,0.0301698526034529
+"Parabacteroides gordonii",11,0,0,0,0.0301334425768787
+"Clostridium sp. CAG:678",11,0,0,0,-0.0300862678049329
+"Campylobacter rectus",11,0,0,0,0.0300462573589073
+"Bacteroides sp. CAG:144",11,0,0,0,0.0300056320039377
+"Clostridium cadaveris",11,0,0,0,0.0292020659971112
+"Massilimicrobiota timonensis",11,0,0,0,-0.0284069780951291
+"Clostridium sp. CAG:411",11,0,0,0,-0.0282318978454947
+"Aeromonas hydrophila",11,0,0,0,0.0281610459588063
+"Streptococcus viridans",11,0,0,0,0.0281498167331433
+"Prevotella sp. CAG:1124",11,0,0,0,-0.0281493108976774
+"Streptococcus sp. F0442",11,0,0,0,-0.0280509148567594
+"Negativicoccus succinicivorans",11,0,0,0,0.0279926903675872
+"Eggerthia catenaformis",11,0,0,0,0.027956001571004
+"Bacteroides faecis",11,0,0,0,-0.0278816840647378
+"Aeromonas media",11,0,0,0,0.0278033326451508
+"Clostridium sp. D5",11,0,0,0,0.0275148230636981
+"Mitsuokella multacida",11,0,0,0,-0.0272879966202017
+"Treponema denticola",11,0,0,0,0.0271235204220073
+"Bifidobacterium dentium",11,0,0,0,0.0270745092447359
+"Paraclostridium bifermentans",11,0,0,0,0.0270675695462376
+"Lactobacillus johnsonii",11,0,0,0,0.0269432969628176
+"Erysipelothrix larvae",11,0,0,0,0.0268875276117593
+"Megamonas rupellensis",11,0,0,0,-0.0268791896004051
+"Aeromonas veronii",11,0,0,0,0.026807463618845
+"Anaerobiospirillum thomasii",11,0,0,0,-0.0267510397585684
+"Butyricicoccus pullicaecorum",11,0,0,0,0.0266370976339132
+"Prevotella sp. CAG:891",11,0,0,0,0.026577172280908
+"Bacteroides faecichinchillae",11,0,0,0,0.0262252808598182
+"Staphylococcus aureus",11,0,0,0,0.0261664279438194
+"Anaeroglobus geminatus",11,0,0,0,0.0259826980334795
+"Proteus hauseri",11,0,0,0,0.0259758963998328
+"Streptococcus sp. HMSC070B10",11,0,0,0,0.0252282450838986
+"Coprobacter fastidiosus",11,0,0,0,0.025026699217095
+"Escherichia marmotae",11,0,0,0,-0.0247848531458948
+"Prevotella sp. oral taxon 306",11,0,0,0,0.0247832119045563
+"Blautia sp. An249",11,0,0,0,0.0247709669536259
+"Lachnospiraceae bacterium 2_1_46FAA",11,0,0,0,0.0238810032032118
+"Lactobacillus gasseri",11,0,0,0,0.023776948375354
+"Citrobacter portucalensis",11,0,0,0,-0.0232243971655853
+"Eubacterium sp. OM08-24",11,0,0,0,0.0230561077027319
+"Alloprevotella rava",11,0,0,0,0.023043291839016
+"Fusobacterium hwasookii",11,0,0,0,0.0229815961472679
+"Latilactobacillus sakei",11,0,0,0,0.022967273844548
+"Hafnia paralvei",11,0,0,0,-0.0226871180952438
+"Pseudoflavonifractor capillosus",11,0,0,0,-0.0226783299497226
+"[Eubacterium] saphenum",11,0,0,0,0.0224141570074964
+"Pediococcus acidilactici",11,0,0,0,-0.0223178853787268
+"Citrobacter werkmanii",11,0,0,0,0.0222605767809462
+"Bacteroides sp. D2",11,0,0,0,0.0220835061043167
+"Prevotella veroralis",11,0,0,0,0.0220713236467912
+"Veillonella rodentium",11,0,0,0,0.0220212601763505
+"Alistipes sp. An66",11,0,0,0,0.0213831267109018
+"Klebsiella quasipneumoniae",11,0,0,0,0.0212613170927017
+"Intestinibacter bartlettii",11,0,0,0,-0.0211826950634086
+"Treponema socranskii",11,0,0,0,0.02106846782381
+"Hafnia alvei",11,0,0,0,-0.0209765387491614
+"Raoultella ornithinolytica",11,0,0,0,0.0208936674028068
+"Latilactobacillus curvatus",11,0,0,0,0.0206949424771153
+"Actinomyces sp. ICM47",11,0,0,0,-0.0203525963593147
+"Weissella confusa",11,0,0,0,-0.0202250494962143
+"Jonquetella anthropi",11,0,0,0,0.0201895234222604
+"Bacteroides sp. CAG:633",11,0,0,0,-0.0199455722292035
+"Leptotrichia sp. oral taxon 215",11,0,0,0,0.0198092144246135
+"Clostridium sp. chh4-2",11,0,0,0,0.0197692429406832
+"Carnobacterium divergens",11,0,0,0,-0.0195844956403932
+"Bacteroides stercorirosoris",11,0,0,0,0.0195291536713048
+"Oscillibacter sp. PC13",11,0,0,0,-0.0193064895912719
+"Citrobacter farmeri",11,0,0,0,0.0189812020931376
+"Streptococcus infantarius",11,0,0,0,-0.0188158358396724
+"Phocaeicola salanitronis",11,0,0,0,-0.0187826068377267
+"Parascardovia denticolens",11,0,0,0,0.0185609844654354
+"Bacteroides fluxus",11,0,0,0,0.0184212337116729
+"Lactococcus piscium",11,0,0,0,-0.0184111417155648
+"Limosilactobacillus oris",11,0,0,0,0.0182582279122216
+"Bacteroides uniformis",11,0,0,0,-0.0181106128312047
+"Streptococcus downei",11,0,0,0,0.0180564293091072
+"Amedibacillus dolichus",11,0,0,0,0.0177710011467385
+"Shuttleworthia satelles",11,0,0,0,0.0177169096222248
+"Flavonifractor sp. An306",11,0,0,0,0.0175711242649018
+"Haemophilus influenzae",11,0,0,0,0.0175571578699893
+"Kosakonia pseudosacchari",11,0,0,0,0.0175346810699573
+"Megasphaera stantonii",11,0,0,0,0.0174531630568996
+"Atopobium minutum",11,0,0,0,0.0173827652081423
+"Actinomyces sp. oral taxon 180",11,0,0,0,0.0173800408046281
+"Treponema medium",11,0,0,0,0.0173041343037716
+"Bacteroides ovatus",11,0,0,0,-0.0172691166826168
+"Streptococcus peroris",11,0,0,0,0.0171078497863262
+"Streptococcus pneumoniae",11,0,0,0,0.016935405211975
+"Dialister invisus",11,0,0,0,0.0168769040658988
+"Selenomonas sp. oral taxon 126",11,0,0,0,0.0168014307452232
+"Campylobacter concisus",11,0,0,0,0.0166292752864911
+"Lachnoclostridium sp. An14",11,0,0,0,0.0164086456125122
+"Aeromonas dhakensis",11,0,0,0,0.0163008214777145
+"Pluralibacter gergoviae",11,0,0,0,0.0162285908620013
+"Aggregatibacter aphrophilus",11,0,0,0,0.0161737746471337
+"Streptococcus sp. HMSC067H01",11,0,0,0,-0.0161594722821074
+"Bacteroides sp. CAG:661",11,0,0,0,-0.0160875565181855
+"Subdoligranulum variabile",11,0,0,0,0.0160718704891098
+"Megasphaera hexanoica",11,0,0,0,0.0160384751105823
+"Anaerococcus lactolyticus",11,0,0,0,0.0159446543309271
+"Treponema succinifaciens",11,0,0,0,0.0159251325639688
+"Sediminibacterium sp. FEMGT703S",11,0,0,0,0.0156612881828551
+"Candidatus Gastranaerophilales bacterium HUM_9",11,0,0,0,-0.015624152461086
+"Denitrobacterium detoxificans",11,0,0,0,-0.015436778294776
+"Candida albicans",11,0,0,0,0.015408991753074
+"Clostridium neonatale",11,0,0,0,-0.0153750460788379
+"Phascolarctobacterium sp.",11,0,0,0,0.0153748090397607
+"Leuconostoc carnosum",11,0,0,0,0.0152558930044363
+"Pseudomonas lundensis",11,0,0,0,-0.0152497477939419
+"Veillonella rogosae",11,0,0,0,-0.0151862520435762
+"Brachyspira pilosicoli",11,0,0,0,0.0151574423092459
+"Streptococcus pseudopneumoniae",11,0,0,0,-0.0151168975121976
+"Roseburia sp. CAG:182",11,0,0,0,0.015096004652425
+"Desulfovibrio legallii",11,0,0,0,0.0150835675514474
+"Enterococcus gilvus",11,0,0,0,0.0150390716245202
+"Lachnospiraceae bacterium oral taxon 096",11,0,0,0,0.0150327988373792
+"Finegoldia magna",11,0,0,0,0.0150103840130264
+"Streptococcus sp. HMSC071D03",11,0,0,0,0.0148706746804794
+"Leptotrichia hofstadii",11,0,0,0,0.0148487290031839
+"[Butyribacterium] methylotrophicum",11,0,0,0,0.0147080198951283
+"Klebsiella pneumoniae",11,0,0,0,0.0147010117529743
+"Gleimia europaea",11,0,0,0,0.0146563265639316
+"Catonella morbi",11,0,0,0,0.0146542218119912
+"Prevotella pallens",11,0,0,0,0.0146326006961456
+"Treponema maltophilum",11,0,0,0,0.0145269652845179
+"Bacteroidetes bacterium oral taxon 272",11,0,0,0,-0.0144519194100073
+"Arachnia propionica",11,0,0,0,-0.0143770256253484
+"Bacteroides heparinolyticus",11,0,0,0,0.0143684986605241
+"Staphylococcus xylosus",11,0,0,0,-0.0143495719442457
+"Leuconostoc garlicum",11,0,0,0,0.0142762542950558
+"Peptoniphilus sp. HMSC062D09",11,0,0,0,0.0142257813855463
+"Marvinbryantia formatexigens",11,0,0,0,0.0142030617604556
+"Actinomyces johnsonii",11,0,0,0,0.0141328245038082
+"Prevotella dentalis",11,0,0,0,0.014115574972145
+"Haemophilus parahaemolyticus",11,0,0,0,0.0141154285329554
+"Lactiplantibacillus plantarum",11,0,0,0,-0.0140641458849067
+"Actinomyces radicidentis",11,0,0,0,-0.0140502432854403
+"Enterococcus hirae",11,0,0,0,0.0139902074222373
+"Desulfovibrio sp. An276",11,0,0,0,-0.0139232863884769
+"Actinomyces sp. oral taxon 897",11,0,0,0,0.0138928707180815
+"Desulfomicrobium orale",11,0,0,0,-0.0138780118265887
+"Serratia liquefaciens",11,0,0,0,-0.0138036233277314
+"Staphylococcus equorum",11,0,0,0,-0.0137705417043018
+"Prevotella histicola",11,0,0,0,0.0137430021564491
+"Clostridium paraputrificum",11,0,0,0,-0.0137355034883779
+"Bacteroides pyogenes",11,0,0,0,0.0136508648272913
+"Synergistes jonesii",11,0,0,0,0.0135704257213332
+"Robinsoniella sp. RHS",11,0,0,0,0.0133430405081688
+"Pantoea dispersa",11,0,0,0,-0.0133152460374204
+"Selenomonas flueggei",11,0,0,0,-0.013221300393873
+"Prevotella sp. CAG:755",11,0,0,0,0.0132108907578268
+"Bacteroides sp. CAG:462",11,0,0,0,0.0131125084607959
+"Eggerthella lenta",11,0,0,0,-0.0130196891314843
+"Leptotrichia sp. oral taxon 212",11,0,0,0,0.0129914848146534
+"Bacteroides oleiciplenus",11,0,0,0,0.0128953156057212
+"Blautia sp. CAG:257",11,0,0,0,-0.0128859138792251
+"Chlamydia ibidis",11,0,0,0,-0.0128598434332149
+"Pasteurella canis",11,0,0,0,0.0127792088728681
+"Prevotella baroniae",11,0,0,0,-0.0127424166649369
+"Trueperella bernardiae",11,0,0,0,0.0126790187028923
+"Limosilactobacillus gastricus",11,0,0,0,0.012676401891722
+"Leclercia adecarboxylata",11,0,0,0,0.0124853835078912
+"Lentilactobacillus otakiensis",11,0,0,0,-0.0124365869691095
+"Macrococcus caseolyticus",11,0,0,0,-0.0122911917189976
+"Eikenella longinqua",11,0,0,0,0.0122764597491553
+"Leuconostoc citreum",11,0,0,0,-0.0122680888093586
+"Parabacteroides johnsonii",11,0,0,0,-0.012255554219435
+"Leuconostoc gelidum",11,0,0,0,-0.0122300928503107
+"Ligilactobacillus acidipiscis",11,0,0,0,-0.0121432674161644
+"Peptoanaerobacter stomatis",11,0,0,0,0.0121401947975827
+"Cellulosilyticum lentocellum",11,0,0,0,0.0121203590807266
+"Prevotella sp. CAG:924",11,0,0,0,-0.0120662378402897
+"Methanosphaera sp. SHI1033",11,0,0,0,0.0119507731477682
+"Stenotrophomonas maltophilia",11,0,0,0,0.0119169707766005
+"Dysgonomonas sp. 37-18",11,0,0,0,-0.0117470277243822
+"Enterococcus pseudoavium",11,0,0,0,-0.0116909586736708
+"Bacteroides sp. OM08-11",11,0,0,0,0.0116793783131975
+"Rothia kristinae",11,0,0,0,-0.0116021130078959
+"Alistipes sp. An31A",11,0,0,0,-0.0115515031886681
+"Campylobacter coli",11,0,0,0,0.0115422038198747
+"Veillonella sp. T11011-6",11,0,0,0,-0.0113610554970715
+"Fannyhessea vaginae",11,0,0,0,0.0112639734783452
+"Pseudoramibacter alactolyticus",11,0,0,0,0.0112014188361575
+"Dellaglioa algida",11,0,0,0,-0.0111096376662562
+"Proteus vulgaris",11,0,0,0,0.011073065029944
+"Streptococcus macedonicus",11,0,0,0,-0.0110672811019078
+"Bifidobacterium pullorum",33,0,0,0,0.0109089412020778
+"Prevotella bergensis",11,0,0,0,0.0107127007109709
+"Providencia rettgeri",11,0,0,0,0.0106685288541764
+"Kosakonia cowanii",11,0,0,0,-0.0106431332887147
+"Selenomonas artemidis",11,0,0,0,0.0106061551724178
+"Cetobacterium somerae",11,0,0,0,0.0105593483814076
+"Enterococcus asini",11,0,0,0,-0.0103491150441661
+"Escherichia albertii",11,0,0,0,0.010289091997429
+"Bavariicoccus seileri",11,0,0,0,0.0102832310126834
+"Candidatus Methanomassiliicoccus intestinalis",11,0,0,0,0.0102585862261088
+"Kluyvera ascorbata",11,0,0,0,-0.010131252305265
+"Treponema vincentii",11,0,0,0,0.0101308951400131
+"Enterococcus devriesei",11,0,0,0,-0.0100209088061968
+"Tannerella sp. oral taxon 808",11,0,0,0,-0.00998404770045132
+"Methanobacterium sp. MB1",11,0,0,0,0.00996375473031689
+"Aeromonas allosaccharophila",11,0,0,0,0.00990429269724617
+"Propionibacterium acidifaciens",11,0,0,0,0.00990084452745115
+"Pediococcus pentosaceus",11,0,0,0,-0.00985489697826513
+"Enterococcus italicus",11,0,0,0,-0.00983830515632961
+"Muribaculum intestinale",11,0,0,0,0.00981736950230815
+"Escherichia fergusonii",11,0,0,0,0.00981681733588025
+"Bacteroides sp. CAG:927",11,0,0,0,0.00977988772122336
+"Klebsiella grimontii",11,0,0,0,0.0097511751638412
+"Streptococcus sp. HMSC034E03",11,0,0,0,0.0096785881023475
+"Murimonas intestini",11,0,0,0,0.00943528086106461
+"Ligilactobacillus agilis",11,0,0,0,0.00941372986006783
+"Corynebacterium durum",11,0,0,0,-0.00940124549594756
+"Campylobacter hominis",11,0,0,0,0.00937255660206345
+"Edwardsiella tarda",11,0,0,0,0.00935065005337913
+"Clostridium sp. CAG:590",11,0,0,0,0.00934429522008432
+"Lactiplantibacillus pentosus",11,0,0,0,-0.00931460288894594
+"Scardovia inopinata",11,0,0,0,-0.00930902984150116
+"Rikenella microfusus",11,0,0,0,0.0092993514937616
+"Corynebacterium matruchotii",11,0,0,0,0.00925740054982911
+"Methanobrevibacter woesei",11,0,0,0,-0.00917615920308804
+"Campylobacter curvus",11,0,0,0,0.00908888940300907
+"Staphylococcus haemolyticus",11,0,0,0,0.00878762285982937
+"Streptococcus sp. NLAE-zl-C503",11,0,0,0,0.00872187264361702
+"Neisseria mucosa",11,0,0,0,0.00867830469021066
+"Cardiobacterium valvarum",11,0,0,0,0.00862238680262265
+"Streptococcus salivarius CAG:79",11,0,0,0,0.00861585690332726
+"Lactococcus raffinolactis",11,0,0,0,0.00859784993805937
+"Lactobacillus ultunensis",11,0,0,0,-0.00856976132879412
+"Enterococcus thailandicus",11,0,0,0,0.00850360408033612
+"Lactobacillus iners",11,0,0,0,0.00846659483017532
+"Acetivibrio ethanolgignens",11,0,0,0,0.00845553971307744
+"Oscillibacter sp. 57_20",11,0,0,0,-0.0084513839963107
+"Ligilactobacillus murinus",11,0,0,0,0.00843716376064348
+"Blautia coccoides",11,0,0,0,0.00840494855536825
+"Bacteroides caecimuris",11,0,0,0,0.00831728770693681
+"Tannerella forsythia",11,0,0,0,0.00829583639209512
+"Eubacterium dolichum CAG:375",11,0,0,0,0.00828763228577379
+"Prevotella sp. S7-1-8",11,0,0,0,0.00827660206189262
+"Prevotella colorans",11,0,0,0,0.00826983139108864
+"Methanobrevibacter arboriphilus",11,0,0,0,0.00820162297139375
+"Varibaculum cambriense",11,0,0,0,0.0080443289880764
+"Vagococcus teuberi",11,0,0,0,0.00802862159858186
+"Proteus penneri",11,0,0,0,0.00798289236200045
+"Oxalobacter formigenes",11,0,0,0,0.00797269400046038
+"Streptococcus sp. oral taxon 056",11,0,0,0,-0.00796980188853904
+"Selenomonas sp. oral taxon 920",11,0,0,0,0.00796087815697815
+"Shewanella algae",11,0,0,0,0.00794517413263525
+"Ruminococcus sp. CAG:563",11,0,0,0,-0.00783008038735833
+"Raoultella planticola",11,0,0,0,0.00780406639430579
+"Butyrivibrio crossotus",11,0,0,0,-0.00777572609076841
+"Facklamia hominis",11,0,0,0,0.00775616383722966
+"Enterobacter bugandensis",11,0,0,0,0.00766856220166392
+"Lactobacillus intestinalis",11,0,0,0,0.00764511787534936
+"Alcaligenes aquatilis",11,0,0,0,0.00761092496301002
+"Anaerosporobacter mobilis",11,0,0,0,0.00758951229863136
+"Prevotella amnii",11,0,0,0,0.00750011849441594
+"Prevotella oulorum",11,0,0,0,-0.00747505828931142
+"Bifidobacterium scardovii",11,0,0,0,0.00746952240849253
+"Neisseria sp. oral taxon 014",11,0,0,0,0.00745179409003394
+"Eubacterium sp. An11",11,0,0,0,0.00742963847987476
+"Pauljensenia hongkongensis",11,0,0,0,0.00739844228060438
+"Tyzzerella sp. An114",11,0,0,0,-0.00729593220935711
+"Paeniclostridium sordellii",11,0,0,0,0.0072339923174595
+"Tropheryma whipplei",11,0,0,0,-0.0072338412851899
+"Lachnoclostridium sp. An298",11,0,0,0,0.0072155361209642
+"Treponema porcinum",11,0,0,0,-0.00716004712080915
+"Rhodococcus qingshengii",11,0,0,0,-0.00715344340895083
+"Megasphaera vaginalis",11,0,0,0,-0.00709411470121238
+"Cutibacterium namnetense",11,0,0,0,0.00706981976521413
+"Raoultella terrigena",11,0,0,0,0.00705662796566806
+"Duncaniella muris",11,0,0,0,0.00692091661091125
+"Comamonas kerstersii",11,0,0,0,0.00690672694340247
+"Pediococcus sp.",11,0,0,0,-0.00659860595240268
+"Limosilactobacillus antri",11,0,0,0,0.0065812789630083
+"Desulforamulus ruminis",11,0,0,0,0.00657912035370479
+"Prevotella jejuni",11,0,0,0,-0.00657015499415453
+"Lachnoclostridium sp. An196",11,0,0,0,0.00654685919872041
+"Aggregatibacter sp. oral taxon 458",11,0,0,0,0.00654333312477107
+"Enterococcus malodoratus",11,0,0,0,-0.00653219235810681
+"Lentilactobacillus parabuchneri",11,0,0,0,-0.0065178881157742
+"Ralstonia pickettii",11,0,0,0,0.00641212869194575
+"Veillonella denticariosi",11,0,0,0,0.00636760643026141
+"Dysgonomonas gadei",11,0,0,0,-0.00629210375577854
+"Moraxella catarrhalis",11,0,0,0,0.00623863370444672
+"Weissella viridescens",11,0,0,0,0.00619622967376099
+"Barnesiella viscericola",11,0,0,0,-0.006191790250497
+"Methanosphaera cuniculi",11,0,0,0,0.00616717880068681
+"Clostridium sp. MSTE9",11,0,0,0,0.00615079195595104
+"Helicobacter pullorum",11,0,0,0,-0.00613267002161309
+"Pediococcus parvulus",11,0,0,0,-0.00611920535845225
+"Lentilactobacillus buchneri",11,0,0,0,-0.00609864995632984
+"Firmicutes bacterium CAG:646",11,0,0,0,0.00603658600185279
+"Porphyromonas sp. HMSC065F10",11,0,0,0,0.00599256215187947
+"Streptococcus equinus",11,0,0,0,-0.00597981755320529
+"Carnobacterium maltaromaticum",11,0,0,0,0.00597832292143131
+"Enterococcus canis",11,0,0,0,-0.00596891771704526
+"Latilactobacillus fuchuensis",11,0,0,0,0.00573652191026602
+"Eikenella halliae",11,0,0,0,-0.00571561779633703
+"Phocaeicola coprocola",11,0,0,0,0.00567194360786379
+"Lactobacillus kefiranofaciens",11,0,0,0,0.00567124250764728
+"Acinetobacter pittii",11,0,0,0,-0.00561197701027118
+"Dorea sp. D27",11,0,0,0,0.00556896524977376
+"Porphyromonas canoris",11,0,0,0,-0.005562389673767
+"Acinetobacter lwoffii",11,0,0,0,-0.0055312515378157
+"Desulfovibrio vulgaris",11,0,0,0,0.00550707304138275
+"Prevotella multiformis",11,0,0,0,0.00545007178366505
+"Haemophilus sp. C1",11,0,0,0,0.00540280393947819
+"Roseburia sp. 831b",11,0,0,0,0.005321642520124
+"Corynebacterium flavescens",11,0,0,0,-0.00530857649725243
+"Staphylococcus saprophyticus",11,0,0,0,-0.00530054286456421
+"Streptococcus sp. M334",11,0,0,0,0.0052993483779937
+"Clostridiales bacterium CHKCI006",11,0,0,0,-0.00529506578737275
+"Prevotella multisaccharivorax",11,0,0,0,-0.00528713165396688
+"Atlantibacter hermannii",11,0,0,0,0.00525789851193642
+"Neisseria perflava",11,0,0,0,-0.00520866149543061
+"Staphylococcus warneri",11,0,0,0,0.00519847406131428
+"Sneathia vaginalis",11,0,0,0,0.00516006959649484
+"Cutibacterium acnes",11,0,0,0,-0.00515655073146873
+"Methanobacterium formicicum",11,0,0,0,0.00515468355489497
+"Anaerofilum sp. An201",11,0,0,0,0.00515106556392173
+"Staphylococcus carnosus",11,0,0,0,-0.00513456448498656
+"Brachyspira sp. CAG:700",11,0,0,0,0.00505474258593546
+"Clostridium sp. 7_2_43FAA",11,0,0,0,0.0050395952257894
+"Methanomassiliicoccales archaeon RumEn M1",11,0,0,0,0.00503603910071216
+"Tychonema bourrellyi",11,0,0,0,0.00502213163425693
+"Leuconostoc suionicum",11,0,0,0,-0.00499809826764374
+"Prevotella sp. P3-122",11,0,0,0,-0.00498711322570882
+"Streptococcus massiliensis",11,0,0,0,0.0049837677460321
+"Anaerocolumna aminovalerica",11,0,0,0,0.00495399570140361
+"Sodalis praecaptivus",11,0,0,0,-0.00492736819688497
+"Lactobacillus apis",11,0,0,0,-0.00482307790975859
+"Ruminococcus sp. CAG:330",11,0,0,0,0.00481055396242588
+"Companilactobacillus crustorum",11,0,0,0,-0.00476986129173601
+"Bacteroides sp. OM05-12",11,0,0,0,0.00476882640255786
+"Citrobacter europaeus",11,0,0,0,0.0047163270663215
+"Schaalia georgiae",11,0,0,0,-0.00468305003111847
+"Lentilactobacillus kefiri",11,0,0,0,-0.00467846381158213
+"Oribacterium sp. oral taxon 078",11,0,0,0,-0.0046530039610374
+"Anaerostipes sp. 494a",11,0,0,0,-0.0046138099157653
+"Alistipes sp. CAG:831",11,0,0,0,0.0045996677762727
+"Bacillus sp. FJAT-27916",11,0,0,0,-0.00459804855175864
+"Candida tropicalis",11,0,0,0,0.00458652143848043
+"Actinobaculum massiliense",11,0,0,0,-0.00458352751325262
+"Eremococcus coleocola",11,0,0,0,0.00457378727367902
+"Alcaligenes faecalis",11,0,0,0,-0.00457089546355497
+"Lachnoclostridium sp. An169",11,0,0,0,0.00456026884963088
+"Blautia argi",11,0,0,0,-0.004551310005534
+"Brevibacterium linens",11,0,0,0,-0.004536009672308
+"Corynebacterium jeikeium",11,0,0,0,0.00453083037822316
+"Peptoniphilus sp. BV3C26",11,0,0,0,0.00452592959019968
+"Treponema sp. OMZ 838",11,0,0,0,0.00444767140620678
+"Leptotrichia sp. oral taxon 225",11,0,0,0,0.004430872682622
+"Staphylococcus epidermidis",11,0,0,0,0.00441873274564534
+"Enterococcus raffinosus",11,0,0,0,0.00435832414187385
+"Candidatus Gastranaerophilales bacterium",11,0,0,0,0.00435676918539245
+"Peptoniphilus grossensis",11,0,0,0,0.0043487034649104
+"Neisseria subflava",11,0,0,0,0.00431934984223557
+"Mitsuokella sp. oral taxon 131",11,0,0,0,0.00431543805604759
+"Selenomonas sp. FOBRC6",11,0,0,0,0.00426732357004411
+"Faecalicatena orotica",11,0,0,0,0.00426463625101967
+"Pseudomonas simiae",11,0,0,0,0.00424221792693593
+"Clostridium sp. SY8519",11,0,0,0,0.00424117879123537
+"Klebsiella quasivariicola",11,0,0,0,-0.00423637740627505
+"Kluyvera cryocrescens",11,0,0,0,-0.00423008528581249
+"Levilactobacillus senmaizukei",11,0,0,0,-0.00422227587468373
+"Corynebacterium aurimucosum",11,0,0,0,0.00414232135157948
+"Lactobacillus kullabergensis",11,0,0,0,-0.00413271936417922
+"Bacillus aerius",11,0,0,0,0.00409955713265661
+"Companilactobacillus farciminis",11,0,0,0,-0.0040376601504856
+"Campylobacter jejuni",11,0,0,0,-0.00400219456898783
+"Lactobacillus amylovorus",11,0,0,0,0.00398638930532884
+"Peptoniphilus duerdenii",11,0,0,0,-0.00398544767849497
+"Lactobacillus kimbladii",11,0,0,0,-0.00397950201650394
+"Lautropia mirabilis",11,0,0,0,-0.00388450692795608
+"Oribacterium asaccharolyticum",11,0,0,0,0.00386474864279819
+"Serratia marcescens",11,0,0,0,0.00385114392008188
+"Leuconostoc mesenteroides",11,0,0,0,-0.00379274128764206
+"Pantoea brenneri",11,0,0,0,-0.00371972224670479
+"Brevibacterium aurantiacum",11,0,0,0,-0.00360013873306504
+"Companilactobacillus versmoldensis",11,0,0,0,0.00355272049543519
+"Lactiplantibacillus paraplantarum",11,0,0,0,0.0035115387618215
+"Weissella minor",11,0,0,0,-0.00344330467809199
+"Selenomonas infelix",11,0,0,0,0.00339025533745652
+"Serratia proteamaculans",11,0,0,0,0.00338199029937688
+"Citrobacter sp. MGH106",11,0,0,0,-0.00338093809243712
+"Actinomyces massiliensis",11,0,0,0,-0.00335631506177535
+"Moraxella osloensis",11,0,0,0,0.00335179940061205
+"Desulfovibrio sp. MES5",11,0,0,0,0.0033101385315418
+"Selenomonas sp. oral taxon 138",11,0,0,0,0.00330785769701134
+"Coprobacter sp.",11,0,0,0,-0.00330450521606249
+"Parabacteroides chinchillae",11,0,0,0,0.00328153911881463
+"Anaerococcus tetradius",11,0,0,0,0.00328040031090185
+"Streptococcus parauberis",11,0,0,0,-0.00327668716386651
+"Bifidobacterium thermacidophilum",11,0,0,0,-0.00326518392696741
+"Levilactobacillus brevis",11,0,0,0,0.00320348054009562
+"Lactococcus plantarum",11,0,0,0,0.00319929490550922
+"Leucobacter sp. 7(1)",11,0,0,0,-0.00319840243767245
+"Salmonella enterica",11,0,0,0,0.00318449233095313
+"Rothia aeria",11,0,0,0,0.00316611884795498
+"Limosilactobacillus pontis",11,0,0,0,0.0030887036287525
+"Pseudomonas helleri",11,0,0,0,0.00308291607266244
+"Corynebacterium urealyticum",11,0,0,0,0.00305000214474038
+"Leucobacter komagatae",11,0,0,0,-0.00304231398682298
+"Malassezia restricta",11,0,0,0,0.00299135582896337
+"Barnesiella sp. An22",11,0,0,0,-0.00298841075398223
+"Methanobrevibacter oralis",11,0,0,0,0.00292852010562707
+"Oenococcus alcoholitolerans",11,0,0,0,-0.00291243294998407
+"Leuconostoc lactis",11,0,0,0,0.00289137119862365
+"Candidatus Stoquefichus sp. KLE1796",11,0,0,0,0.00283703492827706
+"Fusobacterium sp. CAG:439",11,0,0,0,0.00283572489798647
+"Lactonifactor longoviformis",11,0,0,0,-0.00283311616966721
+"Prevotella disiens",11,0,0,0,0.00274322031641792
+"Bifidobacterium mongoliense",11,0,0,0,0.00271108829979342
+"Kingella oralis",11,0,0,0,0.00269019263272058
+"Sarcina ventriculi",11,0,0,0,-0.00267044089129084
+"Gemmiger sp. An50",11,0,0,0,0.00263000997345849
+"Prevotella salivae",11,0,0,0,-0.00254278635988828
+"Peptacetobacter hiranonis",11,0,0,0,0.00243110671780868
+"Helicobacter cinaedi",11,0,0,0,0.00239122070829545
+"Cronobacter sakazakii",11,0,0,0,0.00236844393009796
+"Ezakiella coagulans",11,0,0,0,0.00234662143335215
+"Neisseria elongata",11,0,0,0,0.00232665148798054
+"Lactobacillus kalixensis",11,0,0,0,0.00231394685304245
+"Selenomonas noxia",11,0,0,0,-0.00229647359178556
+"Schaalia meyeri",11,0,0,0,-0.00228866404725055
+"Phytobacter ursingii",11,0,0,0,-0.0021844753883416
+"Cardiobacterium hominis",11,0,0,0,0.00217549387179624
+"[Eubacterium] yurii",11,0,0,0,0.00215709441728805
+"Firmicutes bacterium CAG:170",11,0,0,0,0.00215670965198227
+"Porphyromonas somerae",11,0,0,0,0.00204636494827458
+"Citrobacter koseri",11,0,0,0,0.00195891978766112
+"Actinotignum timonense",11,0,0,0,0.00192536541831027
+"Photobacterium damselae",11,0,0,0,0.00187433994293805
+"Corynebacterium accolens",11,0,0,0,0.00178700275020972
+"Gemmiger sp. An194",11,0,0,0,-0.00175908734732768
+"Kluyvera intermedia",11,0,0,0,-0.00170809916784458
+"Providencia alcalifaciens",11,0,0,0,-0.00160001366883453
+"Phocaeicola sartorii",11,0,0,0,0.00159647035362481
+"Aliarcobacter butzleri",11,0,0,0,-0.00156843934096558
+"Prevotella oralis",11,0,0,0,-0.0015543006111251
+"Lactobacillus equicursoris",11,0,0,0,0.00153907544859575
+"Streptococcus sp. HPH0090",11,0,0,0,-0.00149922427445461
+"Clostridium sp. CAG:964",11,0,0,0,-0.00147136765320312
+"Comamonas testosteroni",11,0,0,0,0.00145720377066711
+"Bacteroidales bacterium KA00251",11,0,0,0,-0.00145665574735634
+"Centipeda periodontii",11,0,0,0,0.00140872234110971
+"Monoglobus pectinilyticus",11,0,0,0,-0.00138199483078244
+"Helicobacter equorum",11,0,0,0,-0.00133580324360432
+"Megasphaera cerevisiae",11,0,0,0,0.00132230432511263
+"Bifidobacterium merycicum",11,0,0,0,-0.00131471171151887
+"Megamonas funiformis CAG:377",11,0,0,0,0.00128525898069656
+"Streptococcus sp. oral taxon 058",11,0,0,0,0.00124464995043622
+"Leptotrichia wadei",11,0,0,0,-0.00123142183697505
+"Lelliottia jeotgali",11,0,0,0,0.00120788326765615
+"Streptococcus sp. SK643",11,0,0,0,0.00120342046942409
+"[Kluyvera] intestini",11,0,0,0,-0.00119217342472222
+"Campylobacter upsaliensis",11,0,0,0,-0.00115801541402591
+"Morococcus cerebrosus",11,0,0,0,0.0011069238102186
+"Dolosigranulum pigrum",11,0,0,0,0.001103572690349
+"Atopobium deltae",11,0,0,0,0.00107915672110195
+"Corynebacterium simulans",11,0,0,0,0.00105769334489397
+"Klebsiella variicola CAG:634",11,0,0,0,-0.00104720528776517
+"Enterobacter soli",11,0,0,0,-0.00102072650982036
+"Haemophilus quentini",11,0,0,0,0.00100744830771477
+"Kosakonia sacchari",11,0,0,0,-0.000999790830649484
+"Phytobacter palmae",11,0,0,0,-0.000993665253432948
+"Clostridium baratii",11,0,0,0,0.000989833325313085
+"Rhodococcus erythropolis",11,0,0,0,0.000983265652917418
+"Acinetobacter johnsonii",11,0,0,0,-0.000982168016917633
+"Companilactobacillus mindensis",11,0,0,0,0.000945290509830084
+"Escherichia sp. ESNIH1",11,0,0,0,0.000901165328367057
+"Lactobacillus acidophilus",11,0,0,0,0.00088150861669391
+"Desulfovibrio fairfieldensis",11,0,0,0,-0.000872246923129744
+"Gemmiger sp. An120",11,0,0,0,0.000856494721942349
+"Prevotella scopos",11,0,0,0,-0.000810592576287128
+"Stenotrophomonas rhizophila",11,0,0,0,0.000719306795334082
+"Neisseria polysaccharea",11,0,0,0,0.000717909266363877
+"Limosilactobacillus fermentum",11,0,0,0,0.000696224073462481
+"Gardnerella vaginalis",11,0,0,0,0.000531305147361945
+"Megasphaera sp. MJR8396C",11,0,0,0,-0.000521611557110882
+"Anaeromassilibacillus sp. An172",11,0,0,0,-0.000463643601295295
+"Lachnoanaerobaculum umeaense",11,0,0,0,-0.000401840404456021
+"Helicobacter pylori",11,0,0,0,0.000311698375877402
+"Meiothermus silvanus",11,0,0,0,-0.000307417091326605
+"Enterococcus mundtii",11,0,0,0,-0.000240061168984986
+"Flavonifractor sp. An82",11,0,0,0,0.000235664166788461
+"Thermus scotoductus",11,0,0,0,-0.000195514316040146
+"Haemophilus paraphrohaemolyticus",11,0,0,0,-0.000148501329364301
+"Enterococcus dispar",11,0,0,0,-7.43766166023158e-05
+"Hungatella effluvii",11,0,0,0,-4.85033485109199e-05
+"Corynebacterium amycolatum",11,0,0,0,4.3609459614932e-05
+"Mageeibacillus indolicus",11,0,0,0,-8.20671071996192e-06
+"Parabacteroides acidifaciens",11,0,0,0,-4.60277188823562e-06
+"Aerococcus christensenii",11,0,0,0,0
+"Bifidobacterium moukalabense",11,0,0,0,0
+"Corynebacterium kroppenstedtii",11,0,0,0,0
+"Corynebacterium pseudodiphtheriticum",11,0,0,0,0
+"Corynebacterium pyruviciproducens",11,0,0,0,0
+"Corynebacterium striatum",11,0,0,0,0
+"Enhydrobacter aerosaccus",11,0,0,0,0
+"Ligilactobacillus saerimneri",11,0,0,0,0
+"Mammaliicoccus vitulinus",11,0,0,0,0
+"Ralstonia insidiosa",11,0,0,0,0
+"Schwartzia succinivorans",11,0,0,0,0
+"Staphylococcus argenteus",11,0,0,0,0
+"Staphylococcus sp. NAM3COL9",11,0,0,0,0
+"Staphylococcus succinus",11,0,0,0,0
+"Tepidimonas fonticaldi",11,0,0,0,0
+"Tetragenococcus halophilus",11,0,0,0,0
+"Veillonella seminalis",11,0,0,0,0
+"Veillonellaceae bacterium DNF00626",11,0,0,0,0
+"Weissella hellenica",11,0,0,0,0
+"[Eubacterium] minutum",11,0,0,0,0

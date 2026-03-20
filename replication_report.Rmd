@@ -1,0 +1,280 @@
+---
+title: "Replication of Thomas et al.on cross-cohort metagenomic signatures of colorectal cancer"
+author: "Muyao Wang"
+date: "`r format(Sys.Date(), '%Y-%m-%d')`"
+output:
+  pdf_document:
+    toc: FALSE
+    number_sections: TRUE
+  html_document:
+    toc: FALSE
+    toc_depth: 3
+    number_sections: TRUE
+    df_print: paged
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(
+  echo = TRUE,
+  message = FALSE,
+  warning = FALSE,
+  fig.align = 'center'
+)
+
+library(tidyverse)
+library(knitr)
+library(kableExtra)
+
+results_dir <- "results"
+output_dir <- "output"
+```
+
+# Abstract
+
+Thomas et al. (Nature Medicine, 2019) asked a question that is more demanding than standard case-control microbiome analysis: **are colorectal cancer (CRC)-associated microbial signatures reproducible across cohorts, and do they retain predictive value when transported to independent studies?** This replication focuses on the public-data component of that question. Rather than reproducing the full raw-read processing pipeline, I reconstructed the cross-cohort analytical framework using species-level relative abundance profiles from `curatedMetagenomicData`.
+
+This replication recovered a compact set of recurrent CRC-enriched taxa, led by *Parvimonas micra*, *Gemella morbillorum*, *Peptostreptococcus stomatis*, *Dialister pneumosintes*, and *Fusobacterium nucleatum*. Random-effects meta-analysis showed positive pooled effects for these species across cohorts, and leave-one-dataset-out (LODO) classification yielded a mean AUC of 0.794 and a median AUC of 0.811. These findings support the original paper's main qualitative conclusion that part of the CRC microbial signal is reproducible and transportable across independent cohorts.
+
+At the same time, this replication highlights several methodological issues that deserve closer scrutiny. The original biological signal appears robust to simplification, but cross-cohort reproducibility depends strongly on preprocessing choices, feature representation, cohort composition, and evaluation design. This report therefore treats replication not as a box-checking exercise, but as a way to interrogate the assumptions behind the original article and identify where the conclusions are strong, where they are conditional, and where future analysis could be improved.
+
+# Introduction
+
+A persistent problem in microbiome epidemiology is that discoveries made in one dataset often fail to generalize to another. The reasons are familiar: different populations, sequencing pipelines, phenotype definitions, confounder structures, and data-processing decisions can all alter the observed signal. This is especially relevant in colorectal cancer, where many studies report disease-associated taxa, but far fewer demonstrate that those taxa are stable across cohorts and useful for external prediction.
+
+Thomas et al. addressed this problem by analyzing multiple stool shotgun metagenomic datasets jointly and emphasizing cross-cohort validation. That study is attractive for replication for two reasons. First, it is scientifically aligned with Zhang Lab's interests in digestive disease, cancer, and the gut microbiome. Second, its central claim is not a single p-value or a single classifier, but a broader analytical idea: robust microbial signals should persist across independent datasets. That makes it a strong test case for evaluating whether I can understand the original research logic, reproduce its core argument, and critically assess which aspects of the conclusion depend on specific modeling choices.
+
+This replication therefore asks **three linked questions**. Can the public CRC cohorts be reconstructed from a standardized resource? Do the same broad classes of recurrent CRC-associated taxa emerge across studies? And does the signal remain externally informative under a leave-one-dataset-out framework? Just as importantly, if the answer is yes, what exactly has been replicated, and what has not?
+
+# Materials and Methods
+
+## Data source and cohort assembly
+
+The replication used stool metagenomic datasets available through `curatedMetagenomicData`, assembled with `curatedMetagenomicAnalyses::makeSEforCondition("CRC")` using relative abundance profiles and excluding `HMP_2019_ibdmdb`. This yielded 11 public CRC studies, all from stool, with 1,395 samples and 935 species-level features.
+
+```{r read-data}
+meta_crc <- read.csv(file.path("data_processed", "meta_crc_species.csv"), stringsAsFactors = FALSE)
+consistency_table <- read.csv(file.path(results_dir, "crc_species_consistency_table.csv"), stringsAsFactors = FALSE)
+meta_summary <- read.csv(file.path(results_dir, "crc_species_meta_summary.csv"), stringsAsFactors = FALSE)
+lodo_results <- read.csv(file.path(results_dir, "crc_lodo_auc_results.csv"), stringsAsFactors = FALSE)
+lodo_summary <- read.csv(file.path(results_dir, "crc_lodo_auc_summary.csv"), stringsAsFactors = FALSE)
+```
+
+The key methodological choice here was to start from curated species profiles rather than raw FASTQ files. That choice improves reproducibility, speed, and transparency, but it also means that this report inherits prior processing decisions embedded in the curated resource. In other words, I am replicating the public analytical layer of the paper, not independently reconstructing the profiling layer.
+
+## Cohort structure
+
+```{r study-table}
+study_table <- meta_crc %>%
+  count(study_name, study_condition) %>%
+  tidyr::pivot_wider(names_from = study_condition, values_from = n) %>%
+  mutate(total = control + CRC) %>%
+  arrange(desc(total))
+
+kable(study_table, caption = "Table 1. Public CRC cohorts included in the replication.") %>%
+  kable_styling(full_width = FALSE)
+```
+
+This cohort table already illustrates one important analytical issue: the replication dataset is highly unbalanced across studies. Some cohorts are large and therefore dominate evidence accumulation, while others are small and unstable. Any claim of reproducibility must therefore be interpreted through the lens of between-study heterogeneity, not just overall sample size.
+
+## Feature representation
+
+Species-level relative abundance was used as the primary feature space. Abundance values were transformed as `log10(abundance + 1e-5)`. This transformation is simple and transparent, but it is not uniquely correct. Microbiome data are sparse and compositional, so every representation imposes assumptions. I chose this transformation because it supports interpretable univariate comparisons, effect size estimation, and penalized logistic regression without obscuring the analytical steps.
+
+This choice is also one place where a replication can productively diverge from the original paper. If the central signal remains visible under a simple transformation, the result is more convincing than if it only appears under a highly tuned pipeline.
+
+## Study-level differential abundance screening
+
+Within each study, CRC and control samples were compared species by species using Wilcoxon rank-sum tests on transformed abundance. Benjamini-Hochberg false discovery rate correction was applied separately within study. For each species-study pair, I recorded the mean difference between CRC and control on the transformed scale.
+
+This is intentionally simpler than a full multivariable or compositional modeling framework. The purpose of this stage was not to claim a final causal or inferential model, but to obtain a clean first-pass view of whether the same taxa repeatedly separate CRC from control across cohorts.
+
+## Cross-study consistency analysis
+
+To evaluate recurrence, I counted how often each species achieved FDR < 0.05 across studies and whether the sign of the effect was consistent. This step addresses a central question in the original paper: which signals are cohort-specific, and which persist across datasets?
+
+This procedure is not a substitute for meta-analysis. It is better understood as an empirical stability screen. A species that appears significant in many studies with consistent direction is more credible than a species that is extreme in one cohort and absent elsewhere.
+
+## Meta-analysis
+
+For the most recurrent species, I computed study-specific standardized mean differences and summarized them with random-effects meta-analysis. This step moves beyond recurrence counting by estimating a pooled effect and quantifying heterogeneity.
+
+Using random effects is important here. A fixed-effect summary would imply that all cohorts estimate a common underlying effect, which is not plausible in international microbiome datasets with different populations and protocols. The random-effects model instead treats between-study variation as part of the scientific problem rather than as noise to be ignored.
+
+## Cross-cohort classification
+
+To test transportability, I implemented leave-one-dataset-out classification with L1-penalized logistic regression. In each iteration, one study was held out for testing and the remaining studies were used for training. Performance was summarized by AUC.
+
+This framework reflects one of the most important ideas in the original paper: in microbiome biomarker work, internal cross-validation alone is not enough. A model that performs well only within a study may be overfitting study-specific structure. External held-out study performance is a much stronger test.
+
+# Results
+
+## Public cohort reconstruction
+
+The public data reconstruction produced 11 CRC stool cohorts with both control and case samples represented in each study.
+
+```{r study-composition-plot, echo=FALSE, out.width='85%'}
+knitr::include_graphics(file.path(output_dir, "crc_study_composition.png"))
+```
+
+This result is important for more than bookkeeping. It confirms that the public-data side of the Thomas et al. framework can be assembled into a coherent cross-study object. That is the prerequisite for every downstream claim about recurrence and transportability.
+
+## Recurrent CRC-associated species
+
+The consistency analysis identified a relatively compact set of recurrent CRC-associated species rather than an uncontrolled list of study-specific hits.
+
+```{r consistency-table}
+top_consistency <- consistency_table %>%
+  arrange(desc(n_sig), desc(abs(mean_diff))) %>%
+  slice_head(n = 15)
+
+kable(top_consistency, digits = 3,
+      caption = "Table 2. Top recurrent species in the cross-study consistency analysis.") %>%
+  kable_styling(full_width = FALSE)
+```
+
+```{r recurrent-plot, echo=FALSE, out.width='85%'}
+knitr::include_graphics(file.path(output_dir, "top_recurrent_crc_species.png"))
+```
+
+The most recurrent species were *Parvimonas micra*, *Gemella morbillorum*, *Peptostreptococcus stomatis*, *Dialister pneumosintes*, and *Fusobacterium nucleatum*. Several points deserve attention.
+
+First, these are not random outputs of one dataset. They recur across multiple studies and largely in the same direction. Second, the signal is concentrated. That is analytically meaningful because it suggests the cross-cohort CRC microbiome signature is not dominated by hundreds of weakly unstable taxa. Third, the leading taxa include organisms that are already familiar in the CRC microbiome literature, which increases biological plausibility but also raises an interpretive caution: replication of a well-known signal is valuable, but it is not the same as discovering mechanism.
+
+## Pooled cross-cohort effects
+
+The consistency analysis alone cannot distinguish between a species that is modestly positive in many studies and a species that is very strong in a few studies. Random-effects meta-analysis addresses that issue.
+
+```{r meta-summary-table}
+meta_summary_fmt <- meta_summary %>%
+  mutate(across(c(pooled_effect, pooled_se, lower, upper, p_value, i2, tau2), ~round(., 3))) %>%
+  arrange(desc(pooled_effect))
+
+kable(meta_summary_fmt,
+      caption = "Table 3. Random-effects meta-analysis of top recurrent CRC-associated species.") %>%
+  kable_styling(full_width = FALSE)
+```
+
+```{r meta-plot, echo=FALSE, out.width='85%'}
+knitr::include_graphics(file.path(output_dir, "crc_species_meta_summary.png"))
+```
+
+The pooled effects were uniformly positive. *Parvimonas micra* showed the largest pooled effect, followed by *Gemella morbillorum*, *Peptostreptococcus stomatis*, *Fusobacterium nucleatum*, and *Dialister pneumosintes*. This is exactly the kind of result one would want to see if the original paper's main claim is correct: not only recurrence, but recurrence with coherent direction and positive pooled effect under a model that allows heterogeneity.
+
+The more interesting question is what these pooled effects mean analytically. They should not be interpreted as universal disease effects. Rather, they are evidence that certain taxa carry a cross-study disease-associated signal strong enough to survive different cohort contexts. That is a weaker but more credible claim, and it is also closer to the true contribution of the original paper.
+
+## Leave-one-dataset-out classification
+
+The strongest test of the original paper's logic is whether the microbial signal retains predictive value when transported to an unseen study.
+
+```{r lodo-table}
+lodo_results_fmt <- lodo_results %>%
+  arrange(desc(auc)) %>%
+  mutate(auc = round(auc, 3))
+
+kable(lodo_results_fmt,
+      caption = "Table 4. Leave-one-dataset-out classification performance by held-out study.") %>%
+  kable_styling(full_width = FALSE)
+```
+
+```{r lodo-summary}
+kable(lodo_summary %>% mutate(across(everything(), round, 3)),
+      caption = "Table 5. Summary of LODO classification performance.") %>%
+  kable_styling(full_width = FALSE)
+```
+
+```{r lodo-plot, echo=FALSE, out.width='85%'}
+knitr::include_graphics(file.path(output_dir, "crc_lodo_auc.png"))
+```
+
+The LODO framework produced a mean AUC of `r round(lodo_summary$mean_auc[1], 3)` and a median AUC of `r round(lodo_summary$median_auc[1], 3)`. This is strong enough to support the conclusion that species-level CRC signals are not purely study-specific. At the same time, performance varied materially across held-out cohorts. That variation is not a nuisance result; it is one of the most important findings of the replication.
+
+A perfectly stable microbiome biomarker would produce similar AUC across all studies. That is not what we observe. Instead, some cohorts appear much easier to classify than others. This suggests that transportability is real but conditional. The original article's message is therefore best understood as evidence for partial and structured reproducibility, not universal portability.
+
+# Comparison with the original paper
+
+The present replication supports the main argument of Thomas et al. at the level that matters most conceptually. The original paper argued that CRC-associated microbiome signals can be reproduced across cohorts and that classifier performance should be assessed with true cross-cohort validation. The current results are concordant with both claims. Recurrent CRC-enriched taxa were identified across public studies, pooled effects were positive and coherent, and LODO prediction was informative in most held-out datasets.
+
+However, this concordance should not be overstated. The current workflow differs from the original paper in at least four ways. First, it starts from curated relative abundance profiles rather than raw sequencing reads. Second, it focuses on species-level data and does not reproduce the full functional profiling layer. Third, it uses a simple Wilcoxon-plus-meta-analysis strategy for recurrence screening rather than the article's full feature engineering and validation structure. Fourth, it uses penalized logistic regression as a transparent baseline classifier rather than attempting to exactly match the original modeling pipeline.
+
+These deviations mean that the replication is qualitative rather than numerically exact. But that is also what gives the result interpretive force. If the same broad conclusions survive changes in preprocessing source, summary representation, and modeling simplification, then the original signal is more likely to be robust rather than pipeline-fragile.
+
+# Critical analysis of the original study
+
+## What the original paper gets right
+
+The paper's strongest idea is methodological. It treats independent cohorts as the central unit of validation. That is a major strength because microbiome studies are especially vulnerable to within-study overfitting. By emphasizing cross-cohort reproducibility, the paper asks a more meaningful question than whether a model performs well under random internal splits.
+
+A second strength is that the paper does not equate significance with usefulness. The move from differential abundance to held-out prediction is important because it forces the analysis to distinguish between statistically detectable associations and signals that are actually portable.
+
+## What should be questioned
+
+The first issue is whether the published analytical complexity is necessary to support the biological claim. The current replication suggests that much of the central signal is visible under a substantially simpler workflow. That is not a criticism of sophistication per se, but it does raise a useful question: how much of the original analytical machinery was needed to establish the main conclusion, and how much served to optimize performance? For scientific interpretation, those are not the same thing.
+
+The second issue is compositionality. Relative abundance data are constrained, sparse, and interdependent. Both the original paper and this replication ultimately rely on transformed abundance summaries that may be sensitive to representation. A natural extension would be to test whether the recurrent taxa remain stable under compositional alternatives such as centered log-ratio transformations, prevalence filtering, or methods explicitly designed for sparse compositional data.
+
+The third issue is confounding and disease context. Cross-cohort reproducibility does not by itself establish disease specificity. Some recurrent CRC-associated taxa may reflect inflammation, bleeding, bowel preparation, medication exposure, oralization of the gut microbiome, or other downstream consequences of disease rather than etiologic relevance. The original paper is persuasive as a biomarker study, but less decisive as a mechanistic study.
+
+The fourth issue is heterogeneity. The LODO results and random-effects summaries both imply that between-study variation is substantial. That means the question should not only be which taxa are reproducible, but under what conditions they are reproducible. A stronger follow-up analysis would explicitly model heterogeneity by geography, sample size, cohort recruitment strategy, or stage composition rather than treating it only as background variation.
+
+## What I would improve
+
+If extending this replication, I would prioritize four improvements.
+
+First, I would rerun the analysis using a more explicitly compositional framework and compare whether the top recurrent taxa remain stable. If they do, the result becomes stronger.
+
+Second, I would compare classifier performance under two feature spaces: all species versus a stability-selected subset derived from the recurrence screen. This would test whether transportability improves when the model is restricted to cross-study robust taxa.
+
+Third, I would quantify study influence more formally, for example by leave-one-study-out influence diagnostics in the meta-analysis. That would identify whether specific cohorts disproportionately drive pooled effects.
+
+Fourth, I would incorporate functional pathway features alongside taxonomy. One attractive question is whether cross-cohort reproducibility is stronger at the taxonomic level or at the functional level. That would connect more directly to the mechanistic ambitions of the original paper.
+
+# Discussion
+
+The main takeaway from this replication is that the central argument of Thomas et al. survives a simpler public-data implementation. This is important because it suggests the paper's main message is not purely an artifact of a single profiling pipeline or a narrowly tuned classifier. A subset of CRC-associated microbial species appears repeatedly across independent cohorts and retains predictive value when transported across studies.
+
+But the replication also sharpens the interpretation of that claim. Reproducibility here is not absolute. It is structured, incomplete, and cohort-dependent. The strongest replicated result is not that there exists a universally stable CRC microbiome biomarker panel, but that a nontrivial subset of taxa repeatedly carries disease-associated information across populations.
+
+That distinction matters for how one should read the original paper. The study is most convincing as a demonstration of cross-cohort signal stability and diagnostic transferability under realistic heterogeneity. It is less decisive as evidence for causal taxa or for universal screening performance. The best way to respect the paper is therefore not to accept it uncritically, but to locate exactly where its claims are strongest.
+
+# Appendix
+
+## Appendix Table A1. Top recurrent species across studies
+
+```{r appendix-consistency}
+kable(
+  consistency_table %>%
+    arrange(desc(n_sig), desc(abs(mean_diff))) %>%
+    slice_head(n = 30),
+  digits = 3,
+  caption = "Appendix Table A1. Top 30 recurrent species across studies."
+) %>%
+  kable_styling(full_width = FALSE)
+```
+
+## Appendix Figure A1-A5. Forest plots for leading species
+
+```{r appendix-forest-1, echo=FALSE, out.width='85%'}
+knitr::include_graphics(file.path(output_dir, "Parvimonas_micra_forest.png"))
+```
+
+```{r appendix-forest-2, echo=FALSE, out.width='85%'}
+knitr::include_graphics(file.path(output_dir, "Gemella_morbillorum_forest.png"))
+```
+
+```{r appendix-forest-3, echo=FALSE, out.width='85%'}
+knitr::include_graphics(file.path(output_dir, "Peptostreptococcus_stomatis_forest.png"))
+```
+
+```{r appendix-forest-4, echo=FALSE, out.width='85%'}
+knitr::include_graphics(file.path(output_dir, "Dialister_pneumosintes_forest.png"))
+```
+
+```{r appendix-forest-5, echo=FALSE, out.width='85%'}
+knitr::include_graphics(file.path(output_dir, "Fusobacterium_nucleatum_forest.png"))
+```
+
+## Reproducibility
+
+The full replication code, processed result tables, and report source files are available in the project GitHub repository:
+
+[muyaowang24/thomas_crc_replication](https://github.com/muyaowang24/thomas_crc_replication)
